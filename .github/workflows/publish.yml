@@ -1,9 +1,18 @@
 name: Publish Factorio Mod
 
 on:
-    push:
-        branches:
-            - main
+  workflow_dispatch:
+    # Optional: Define inputs for the manual trigger
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+        type: choice
+        options:
+        - info
+        - warning
+        - debug
 
 jobs:
     publish-mod:
