@@ -1,11 +1,11 @@
 {
   "name": "TFMG-music",
-  "version": "0.4.0",
+  "version": "0.4.6",
   "title": "TFMG Music",
   "author": "oobanooba",
   "factorio_version": "2.0",
   "dependencies": [
-    "base >= 2.0.66"
+    "base >= 2.0.72"
   ],
   "description": "This mod does nothing without TFMG. It only contains all the music for the mod."
 }
